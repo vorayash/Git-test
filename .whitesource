@@ -1,0 +1,28 @@
+{
+    "settingsInheritedFrom": "whitesource-config/whitesource-config@master",
+    "remediateSettings": {
+        "enableRenovate": true,
+        "extends": [
+            "config:base"
+        ],
+        "transitiveRemediation": true
+    },
+    "hostRules": [
+        {
+            "matchHost": "https://na.artifactory.swg-devops.com/artifactory/mss-pypi/",
+            "hostType": "pypi",
+            "userName": "C-UBL5897@nomail.relay.ibm.com",
+            "encrypted": {
+                "password": "wcDMA+krj5GgfM1UAQv/Xz8oxWxEdpQy76dB7liSGDhAgJmEHk1fqjGDMz+skZQ4QiZya5RDuQ7/L7FtbKIlBY7yF//3QfoHBajpcwbq8Mxi3qC09DVbCo1Q025AqKGru59O6PFIXqzRQT9t/JCNb7LlRTqcGiabnOElA5BT4fYXtzTW65bqegpp9/dWZe3jSAoZDYKzDsmYThxLc7R8tqLyarUodEp4GchQA9YgU9EqWjUkrLO6ey20BPXeMH0MxwWdU0AN3QGp8hg/GWWXczOC9Yanzm4Mwe6ENcUuTzUGq8tfsbPWzqjzz9ayduZPOiXMpkEo2xdBYEa4ccFuDg7k1gmSbLL/UHVhDi1tYnISuBGPkRIY0AVUjvxMnKFZYwu9TWBIYfs/85HHCnIpzk9hcUJ0hiFFICxW8Useau+ozJz1C1gq1Da7Hp6Wr/cXdrWHiOXW7t5TyoIDDKc5d2Wcdx/6PCQpKTGt2CSvIe+QUNgfdHPabTPHPICH7UOpV7JoD4iIEBQbQj9umByX0qABRhcvpKKx5WezgLRxt2DZQWrGhilbrqZpG9DwTnsPmGQWmnE2gWI7HuTnZlrmwiQwnVOqLyEY+e/DqmxnPu8u+c0gg+mxLQBHcVwBonhsNk55gJFF6TQRE0U5TNk+53ArlrosIIKsIQ8YNkdnihdYWIa81LRjws7nJSc0Z3XjP0NMTrncACRe0ptgM9KZ2vM2F3lRyOSu2b2jOFjRdIwC"
+            }
+        },
+        {
+            "matchHost": "https://na.artifactory.swg-devops.com/artifactory/mss-pypi-snapshots/",
+            "hostType": "pypi",
+            "userName": "C-UBL5897@nomail.relay.ibm.com",
+            "encrypted": {
+                "password": "wcDMA+krj5GgfM1UAQv/Xz8oxWxEdpQy76dB7liSGDhAgJmEHk1fqjGDMz+skZQ4QiZya5RDuQ7/L7FtbKIlBY7yF//3QfoHBajpcwbq8Mxi3qC09DVbCo1Q025AqKGru59O6PFIXqzRQT9t/JCNb7LlRTqcGiabnOElA5BT4fYXtzTW65bqegpp9/dWZe3jSAoZDYKzDsmYThxLc7R8tqLyarUodEp4GchQA9YgU9EqWjUkrLO6ey20BPXeMH0MxwWdU0AN3QGp8hg/GWWXczOC9Yanzm4Mwe6ENcUuTzUGq8tfsbPWzqjzz9ayduZPOiXMpkEo2xdBYEa4ccFuDg7k1gmSbLL/UHVhDi1tYnISuBGPkRIY0AVUjvxMnKFZYwu9TWBIYfs/85HHCnIpzk9hcUJ0hiFFICxW8Useau+ozJz1C1gq1Da7Hp6Wr/cXdrWHiOXW7t5TyoIDDKc5d2Wcdx/6PCQpKTGt2CSvIe+QUNgfdHPabTPHPICH7UOpV7JoD4iIEBQbQj9umByX0qABRhcvpKKx5WezgLRxt2DZQWrGhilbrqZpG9DwTnsPmGQWmnE2gWI7HuTnZlrmwiQwnVOqLyEY+e/DqmxnPu8u+c0gg+mxLQBHcVwBonhsNk55gJFF6TQRE0U5TNk+53ArlrosIIKsIQ8YNkdnihdYWIa81LRjws7nJSc0Z3XjP0NMTrncACRe0ptgM9KZ2vM2F3lRyOSu2b2jOFjRdIwC"
+            }
+        }
+    ]
+}
